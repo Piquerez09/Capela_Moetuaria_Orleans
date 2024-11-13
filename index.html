@@ -5,37 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capela Mortuária Orleans</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Capela Mortuária Orleans</h1>
+        <div class="logo">
+            <h1>Capela Mortuária Orleans</h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="#capelas">Capelas</a></li>
                 <li><a href="#floricultura">Floricultura</a></li>
+                <li><a href="#lanchonete">Lanchonete</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="capelas">
+        <section id="capelas" class="section">
             <h2>Localização das Capelas</h2>
-            <ul>
-                <li><strong>Capela 1:</strong> Rua A, 123 - Orleans</li>
-                <li><strong>Capela 2:</strong> Rua B, 456 - Orleans</li>
-                <li><strong>Capela 3:</strong> Rua C, 789 - Orleans</li>
-                <li><strong>Capela 4:</strong> Rua D, 101 - Orleans</li>
-            </ul>
+            <div class="capelas-list">
+                <div class="capela">
+                    <h3>Capela 1</h3>
+                    <p>Rua A, 123 - Orleans</p>
+                </div>
+                <div class="capela">
+                    <h3>Capela 2</h3>
+                    <p>Rua B, 456 - Orleans</p>
+                </div>
+                <div class="capela">
+                    <h3>Capela 3</h3>
+                    <p>Rua C, 789 - Orleans</p>
+                </div>
+                <div class="capela">
+                    <h3>Capela 4</h3>
+                    <p>Rua D, 101 - Orleans</p>
+                </div>
+            </div>
         </section>
 
-        <section id="floricultura">
+        <section id="floricultura" class="section">
             <h2>Floricultura</h2>
-            <p>Oferecemos uma variedade de flores e arranjos para homenagens. Visite-nos:</p>
+            <p>Oferecemos uma seleção de flores e arranjos especiais para homenagens e momentos de reflexão.</p>
             <p><strong>Endereço:</strong> Rua E, 202 - Orleans</p>
         </section>
 
-        <section id="contato">
+        <section id="lanchonete" class="section">
+            <h2>Lanchonete</h2>
+            <p>Durante sua visita, nossa lanchonete oferece um ambiente acolhedor com opções de lanches e bebidas.</p>
+            <p><strong>Endereço:</strong> Rua F, 505 - Orleans</p>
+        </section>
+
+        <section id="contato" class="section">
             <h2>Contato</h2>
             <p><strong>Endereço:</strong> R. Prof. João Falarz, 220 - Cidade Industrial de Curitiba, Curitiba - PR, 81280-020</p>
             <p><strong>Telefone:</strong> <a href="tel:+554132856437">(41) 3285-6437</a> | <a href="tel:+5541999012275">(41) 99901-2275</a></p>
@@ -48,5 +70,6 @@
     <footer>
         <p>&copy; 2024 Capela Mortuária Orleans. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
