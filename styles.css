@@ -8,18 +8,19 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
     background: linear-gradient(to right, #2d2d2d, #444);
     color: white;
-    padding: 20px 0;
+    padding: 25px 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 header .logo h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
 }
@@ -27,17 +28,19 @@ header .logo h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 25px;
+    margin: 0 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.1rem;
     transition: color 0.3s ease;
 }
@@ -51,13 +54,13 @@ main {
 }
 
 .section {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 h2 {
     color: #4CAF50;
-    margin-bottom: 20px;
-    font-size: 2rem;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -66,25 +69,27 @@ h2 {
 .capelas-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
+    gap: 30px;
+    margin-top: 20px;
 }
 
 .capela {
     background-color: #fff;
-    border-radius: 10px;
-    padding: 25px;
+    border-radius: 12px;
+    padding: 30px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s ease;
     text-align: center;
+    font-size: 1.1rem;
 }
 
 .capela:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .capela h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #333;
     margin-bottom: 15px;
 }
@@ -102,6 +107,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    font-size: 1rem;
 }
 
 footer p {
