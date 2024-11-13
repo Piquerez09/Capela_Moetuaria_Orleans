@@ -25,7 +25,8 @@
     </header>
 
     <main>
-        <section id="capelas" class="section">
+        <section id="capelas" class="section parallax" style="background-image: url('capelas-bg.jpg');">
+            <div class="overlay"></div>
             <h2>Localização das Capelas</h2>
             <div class="capelas-list">
                 <div class="capela">
@@ -49,23 +50,40 @@
 
         <section id="floricultura" class="section">
             <h2>Floricultura</h2>
-            <p>A floricultura oferece uma variedade de flores e arranjos delicados para homenagens.</p>
-            <p><strong>Localização:</strong> No centro do complexo, ao lado das capelas.</p>
+            <div class="floricultura-content">
+                <img src="floricultura.jpg" alt="Floricultura" class="floricultura-img">
+                <p>Visite nossa floricultura e escolha entre uma vasta gama de flores e arranjos especialmente pensados para homenagens.</p>
+                <p><strong>Localização:</strong> Ao lado das capelas, com fácil acesso para todos os visitantes.</p>
+            </div>
         </section>
 
         <section id="lanchonete" class="section">
             <h2>Lanchonete</h2>
-            <p>Relaxe na nossa lanchonete, com lanches frescos, café e outras opções para o seu conforto.</p>
+            <p>Uma lanchonete confortável e acolhedora, oferecendo lanches frescos, café e bebidas quentes, em um ambiente relaxante.</p>
             <p><strong>Localização:</strong> À direita do complexo, próxima à entrada principal.</p>
         </section>
 
         <section id="contato" class="section">
             <h2>Contato</h2>
-            <p><strong>Endereço:</strong> R. Prof. João Falarz, 220 - Cidade Industrial de Curitiba, Curitiba - PR, 81280-020</p>
-            <p><strong>Telefone:</strong> <a href="tel:+554132856437">(41) 3285-6437</a> | <a href="tel:+5541999012275">(41) 99901-2275</a></p>
-            <p><strong>WhatsApp:</strong> <a href="https://wa.me/5541999012275">Clique aqui para enviar uma mensagem</a></p>
-            <p><strong>Horário de funcionamento:</strong> Aberto 24 horas</p>
-            <p><strong>Localização:</strong> <a href="https://www.google.com/maps/place/R.+Prof.+Jo%C3%A3o+Falarz,+220+-+Cidade+Industrial+de+Curitiba,+Curitiba+-+PR,+81280-020" target="_blank">Abrir no Google Maps</a></p>
+            <div class="contact-form">
+                <h3>Envie uma mensagem</h3>
+                <form id="contact-form">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required placeholder="Seu nome">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Seu email">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" required placeholder="Sua mensagem..."></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <p><strong>Endereço:</strong> R. Prof. João Falarz, 220 - Cidade Industrial de Curitiba, Curitiba - PR, 81280-020</p>
+                <p><strong>Telefone:</strong> <a href="tel:+554132856437">(41) 3285-6437</a> | <a href="tel:+5541999012275">(41) 99901-2275</a></p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/5541999012275">Clique aqui para enviar uma mensagem</a></p>
+                <p><strong>Horário de funcionamento:</strong> Aberto 24 horas</p>
+                <p><strong>Localização:</strong> <a href="https://www.google.com/maps/place/R.+Prof.+Jo%C3%A3o+Falarz,+220+-+Cidade+Industrial+de+Curitiba,+Curitiba+-+PR,+81280-020" target="_blank">Abrir no Google Maps</a></p>
+            </div>
         </section>
     </main>
 
@@ -73,5 +91,6 @@
         <p>&copy; 2024 Capela Mortuária Orleans. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="scripts.js"></script>
 </body>
 </html>
