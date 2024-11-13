@@ -114,61 +114,26 @@ h2 {
     color: #666;
 }
 
-/* Botão do WhatsApp */
-.whatsapp-btn {
+/* Floricultura - Slider e Textos */
+.floricultura-slider {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    gap: 15px;
 }
 
-.whatsapp-btn a {
-    display: flex;
-    align-items: center;
-    background-color: #25d366;
-    color: white;
-    font-size: 1.2rem;
-    padding: 15px 30px;
-    border-radius: 8px;
-    text-decoration: none;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.whatsapp-btn a:hover {
-    background-color: #128c7e;
-    transform: scale(1.05);
-}
-
-.whatsapp-btn a img {
-    margin-right: 10px;
-    width: 24px;
-    height: 24px;
-}
-
-/* Formulário de Contato */
-.contact-form input, .contact-form textarea {
+.slide img {
     width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
+    max-width: 500px;
     border-radius: 8px;
-    border: 1px solid #ddd;
-    font-size: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.contact-form button {
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    padding: 15px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-    background-color: #45a049;
+/* Placas e Flores */
+.floricultura p {
+    font-size: 1.2rem;
+    color: #444;
+    text-align: center;
+    margin-top: 15px;
 }
 
 /* Footer */
